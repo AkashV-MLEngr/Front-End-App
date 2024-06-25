@@ -17,16 +17,9 @@ const App: React.FC = () => {
           <Route path="/" element={<LandingView />} />
           <Route path="/api/properties" element={<BuyerDashboard />} />
           <Route path="/api/seller-dashboard" element={<SellerDashbord />} />
-
         </Routes>
       </Router>
       
-        {/* <CusNavbar /> */}
-        {/* <h1 className="mt-5">Registration Form</h1> */}
-        {/* <RegistrationForm /> */}
-        {/* <h1 className="mt-5">Users List</h1> */}
-        {/* <UsersList /> */}
-        {/* <PropertiesList /> */}
       </div>
     
   );
